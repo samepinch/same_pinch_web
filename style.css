@@ -1,0 +1,131 @@
+---
+---
+{% include css/bootstrap.min.css %}
+{% include css/creative.css %}
+{% include css/animate.min.css %}
+
+body, h1, h2, h3, h4, h5 {
+    font-family: 'Ubuntu', arial, sans-serif !important;
+}
+
+h2 {
+    font-size:34px;
+    margin-top:140px;
+}
+
+.btn-primary {
+    background-color:#c52128;
+}
+.bg-primary {
+    background-color:#c52128;
+
+}
+
+.navbar-default.affix .navbar-header .navbar-brand {
+
+    color:#c52128;
+
+}
+
+.text-primary {
+    color:#c52128;
+}
+
+hr {
+    border-color:#c52128;
+}
+
+#howitworks .col-md-4 img {
+    margin:0 auto;
+}
+
+#contact a {
+    color:#1886fe;
+}
+
+
+@media (min-width: 768px) {
+    .navbar-default {
+        background-color:rgba(0,0,0,0.2);
+    //opacity:0.2;
+    //color:#c52128;
+        border-bottom:none;
+
+    }
+}
+
+
+header .header-content .header-content-inner p.maintitle1 {
+
+    font-size:52px;
+    margin-bottom:20px;
+}
+
+header .header-content .header-content-inner p.maintitle2 {
+
+    font-size:30px;
+    margin-bottom:20px;
+}
+.light-font {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.post-box {
+    width:300px;
+    height:120px;
+    border:1px solid #e8e8e8;
+    background-color:#ffffff;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    color:#666666;
+    text-align:left;
+    margin:0 auto;
+    display:inline-block;
+    margin-bottom:20px;
+}
+
+.profile-pic {
+    border-radius:22px;
+    -moz-border-radius:22px;
+    -webkit-border-radius:22px;
+    border:1px solid #e8e8e8;
+//position:relative;
+}
+.profilepic-position {
+    width:45px;
+    height:45px;
+    position:relative;
+    top:-15px;
+    left:0px;
+}
+.txt-light {
+    color:#cccccc;
+    font-style:italic;
+    margin-top:4px;
+}
+.text-bold {
+    font-weight:bold;
+}
+
+#carousel-example-generic .item {
+
+}
+header {
+    background-image:url(img/header.png) !important;
+}
+
+header .header-content .header-content-inner p {
+    color:#ffffff !important;
+}
+
+.mtop140 {
+    margin-top:140px;
+}
+
+.mtop90 {
+    margin-top:90px;
+}
+.post-wrap {
+    position:relative; top:20px;
+}
