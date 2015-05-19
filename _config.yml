@@ -1,8 +1,7 @@
 ---
 
-port: 4000
-host: 0.0.0.0
-safe: false
+baseurl:     "/same_pinch_web" # the subpath of your site, e.g. /blog/
+url:         "http://www.maisasolutions.com"
 
 
 ### site serving configuration ###
