@@ -7,11 +7,11 @@ $(function() {
             case '#T&C':
                 location = 't&c'
                 break;
-            case '#systemstatus':
-                location = "system-status"
+            case '#sys_status':
+                location = "systemstatus"
                 break;
-            case '#rules':
-                location = 'app-rules'
+            case '#app_rules':
+                location = 'rules'
                 break;
         }
         window.location = location
