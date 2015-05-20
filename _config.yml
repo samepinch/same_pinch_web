@@ -1,7 +1,7 @@
 ---
 
-baseurl:     "/same_pinch_web" # the subpath of your site, e.g. /blog/
-url:         "http://www.maisasolutions.com"
+baseurl:     "" # the subpath of your site, e.g. /blog/
+url:         "http://www.samepinch.co"
 
 
 ### site serving configuration ###
