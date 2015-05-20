@@ -6,7 +6,7 @@ url:         "http://www.maisasolutions.com"
 
 ### site serving configuration ###
 exclude: [CNAME, README.md, .gitignore, .idea]
-permalink: / ## disables post output
+permalink: pretty
 timezone: null
 lsi: false
 markdown: kramdown

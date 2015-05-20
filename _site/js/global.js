@@ -1,4 +1,23 @@
 
+$(function() {
+    $('a.mobile_hyper_links').bind('click', function(event) {
+        event.preventDefault();
+        var location = '/'
+        switch ($(this).attr('href')) {
+            case '#T&C':
+                location = 't&c'
+                break;
+            case '#systemstatus':
+                location = "system-status"
+                break;
+            case '#rules':
+                location = 'app-rules'
+                break;
+        }
+        window.location = location
+    });
+});
+
 
 $('.carousel').carousel({
     interval: 3000,
