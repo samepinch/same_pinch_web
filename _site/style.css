@@ -479,6 +479,23 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
+#kol_embed_container_54190{
+    width:350px !important;
+}
+
+.kol-form-header h2{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+#kol-powered-by-wrapper{
+    display: none;
+}
+
+#kol_embed_container_54190 #kol-form-submit-button{
+    margin-bottom: 25px !important;
+}
 @charset "UTF-8";/*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license - http://opensource.org/licenses/MIT
