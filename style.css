@@ -64,7 +64,7 @@ header .header-content .header-content-inner p.maintitle1 {
 header .header-content .header-content-inner p.maintitle2 {
 
     font-size:30px;
-    margin-bottom:20px;
+    margin-bottom:0px;
 }
 .light-font {
     font-family: 'Josefin Sans', sans-serif;
@@ -120,7 +120,7 @@ header .header-content .header-content-inner p {
 }
 
 .mtop140 {
-    margin-top:140px;
+    margin-top:130px;
 }
 
 .mtop90 {
@@ -128,4 +128,22 @@ header .header-content .header-content-inner p {
 }
 .post-wrap {
     position:relative; top:20px;
+}
+
+
+#kol_embed_container_54190{
+    width:350px !important;
+}
+
+.kol-form-header h2{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+#kol-powered-by-wrapper{
+    display: none;
+}
+
+#kol_embed_container_54190 #kol-form-submit-button{
+    margin-bottom: 25px !important;
 }
