@@ -625,6 +625,11 @@ header .header-content .header-content-inner p {
 .mtop90 {
     margin-top:90px;
 }
+
+.mtop10 {
+    margin-top:10px;
+}
+
 .post-wrap {
     position:relative; top:20px;
 }
@@ -645,4 +650,56 @@ header .header-content .header-content-inner p {
 
 #kol_embed_container_54190 #kol-form-submit-button{
     margin-bottom: 25px !important;
+}
+
+footer{
+    background-color: #333333;
+    padding: 20px 0;
+}
+
+
+footer a{
+ color: #8C8A89;
+}
+.copyright{
+    color: #8C8A89;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+ol, ul {
+    margin-top: 0;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #8C8A89;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+a:focus {
+    background-color: #eb3812;
 }
