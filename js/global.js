@@ -29,7 +29,7 @@ $( document ).ready(function() {
     $.ajax({
         type : "POST",
         dataType : "json",
-        url : "https://msocl.herokuapp.com/api/posts.json",
+        url : "https://samepinch.herokuapp.com/api/posts.json",
         data:{command: "web_view"},
         success: function(data){
             $('.dynamic_scrol').html("");
