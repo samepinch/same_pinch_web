@@ -29,8 +29,8 @@ $( document ).ready(function() {
     $.ajax({
         type : "POST",
         dataType : "json",
-        url : "https://samepinch.herokuapp.com/api/posts.json",
-        data:{command: "web_view"},
+        url : "https://samepinch.herokuapp.com/api/webviews.json",
+        data:{command: "posts"},
         success: function(data){
             $('.dynamic_scrol').html("");
             $.each(data.body.posts, function( index, value ) {
