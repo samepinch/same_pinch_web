@@ -12,6 +12,58 @@
     {% if site.favicon %}<link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon">{% endif %}
     {% if site.touch_icon %}<link rel="apple-touch-icon" href="{{ site.touch_icon }}">{% endif %}
 
-    <script  src="{{ "/js/jquery.js" | prepend: site.baseurl }}"></script>
-    <script  src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+    <script  src="/js/jquery.js"></script>
+    <script  src="/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            if(getParameterByName("token").length<1){
+                $('body').hide();
+            }
+
+            $("form").submit(function(e){
+                e.preventDefault();
+                var data = new Object();
+                data["reset_password_token"]=getParameterByName("token");
+                data["password"] = $.trim($("#password").val());
+                data["password_confirmation"] = $.trim($("#password_confirmation").val());
+
+                if(data.password.length>=6){
+                    if(data.password_confirmation== data.password){
+                        reset_password(data);
+                    }else{
+                        alert("Oops! Password confimation mismatched.")
+                    }
+                }else{
+                    alert("Oops! Password should be atleast 6 characters.")
+                }
+            });
+
+        });
+
+        reset_password=function(args){
+            $.ajax({
+                type : "POST",
+                dataType : "json",
+                url : "https://samepinch.herokuapp.com/api/webviews.json",
+                data: {command:'reset_password',body: args},
+                success: function(data){
+                    alert(data.message);
+                    window.location.replace('/');
+
+                },
+                error: function(data){
+                    response = JSON.parse(data.responseText);
+                    alert(response.message);
+                }
+            });
+        };
+
+        getParameterByName = function(name){
+            name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+            var regex = new RegExp("[\\?&]" + name + "=([^&#]*)");
+            results = regex.exec(location.search);
+            return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+        };
+
+    </script>
 </head>
