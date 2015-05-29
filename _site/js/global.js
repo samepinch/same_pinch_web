@@ -1,6 +1,6 @@
 
 $(function() {
-    $('a.mobile_hyper_links').bind('click', function(event) {
+    $('a.footer_anchor').bind('click', function(event) {
         event.preventDefault();
         var location = '/'
         switch ($(this).attr('href')) {
