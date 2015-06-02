@@ -248,4 +248,5 @@ ul.social-buttons li a:hover, a:focus {
 
 .footer_anchor{
     color: #8C8A89;
+    text-decoration: underline;
 }
