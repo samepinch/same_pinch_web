@@ -11,7 +11,7 @@ body {
     margin: 0 auto;
     padding: 0 5%;
     font-size: 100%;
-    font-family: "Noto Sans", sans-serif;
+    font-family: 'Ubuntu', arial, sans-serif !important;
     color: #1E8C06;
     background: #ffffff;
 }
