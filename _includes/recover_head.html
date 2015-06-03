@@ -15,6 +15,7 @@
 
     <script  src="/js/jquery.js"></script>
     <script  src="/js/bootstrap.min.js"></script>
+    <script  src="{{ '/js/google_analytics.js' | prepend: site.baseurl }}"></script>
     <script>
         $(document).ready(function(){
             if(getParameterByName("token").length<1){
@@ -67,4 +68,5 @@
         };
 
     </script>
+
 </head>
