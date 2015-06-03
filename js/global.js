@@ -38,7 +38,7 @@ $( document ).ready(function() {
                 '<div class="col-md-2"><div class="profilepic-position">' +
                 ( value.photo ? '<img src="'+ value.photo +'" width="43" height="43" class="profile-pic" alt=""/>' : '<div class="profilepic-placeholder">'+ value.initials +'</div>') +
                 '</div></div>'+
-                '<div class="col-md-10"><h4 style="display:inline-block">'+( value.name ? value.name : "") +'</h4> <span class="pull-right txt-light">'+ value.createdAt +'</span></div>'+
+                '<div class="col-md-10"><h4 style="display:inline-block; padding-left: 10px;">'+( value.name ? value.name : "") +'</h4> <span class="pull-right txt-light">'+ value.createdAt +'</span></div>'+
                 '<div class="clearfix"></div>'+
                 '<div class="col-md-10 col-md-offset-2"> '+ value.content +' </div>'+
                 '</div></div></li>')
