@@ -128,7 +128,7 @@ header {
 }
 
 header .header-content .header-content-inner p {
-    color:#ffffff !important;
+    //color:#ffffff !important;
 }
 
 .mtop100 {
@@ -162,31 +162,15 @@ header .header-content .header-content-inner p {
 
 @media (min-width: 768px) {
     .navbar-default {
-    //background-color:rgba(255,255,255,1);
+    background-color:rgba(255,255,255,1);
     //opacity:0.2;
     //color:#c52128;
         border-bottom:none;
         height:70px;
 
     }
-    .navbar-default .nav > li>a {
-        color:#ffffff;
-    }
-    .navbar-default .navbar-brand>img.logo-main {
-        display:none;
-    }
 
-    .navbar-default .navbar-brand>img.logo-main-white {
-        display:block;
-    }
 
-    .navbar-default.affix .navbar-brand>img.logo-main {
-        display:block;
-    }
-
-    .navbar-default.affix .navbar-brand>img.logo-main-white {
-        display:none;
-    }
 }
 
 .container-fluid {
