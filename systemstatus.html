@@ -7,7 +7,13 @@ title: systemstatus
 
 <link rel="stylesheet" href="{{ '/css/google-families/Noto_Sans.min.css' | prepend: site.baseurl }}">
 <link rel="stylesheet" href="{{ '/systemstatus.css' | prepend: site.baseurl }}">
-<h2>SamePinch application status</h2>
+
+<div class="sys_status_header">
+    <a href="{{ site.url }}">
+        <img src="{{ site.baseurl }}/img/logo-main.png" alt="">
+    </a>
+</div>
+<h2 style="text-align: center;">Status</h2>
 <ul id='timeline'>
     <li class='work'>
         <input class='radio' id='work3' name='works' type='radio'>
