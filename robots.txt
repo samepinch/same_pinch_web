@@ -1,4 +1,4 @@
+Sitemap: https://samepinch.herokuapp.com/sitemap.xml.gz
 User-agent: *
 Disallow:
 Disallow: /cgi-bin/
-Sitemap: https://www.samepinch.co/sitemap.xml.gz

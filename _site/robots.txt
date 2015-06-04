@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Disallow: /cgi-bin/
-Sitemap: http://www.samepinch.co/sitemap.xml.gz
+Sitemap: https://www.samepinch.co/sitemap.xml.

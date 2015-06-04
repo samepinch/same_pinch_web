@@ -12,6 +12,8 @@ $(function() {
                 break;
             case '#app_rules':
                 location = 'rules'
+            case '#privacy-p':
+                location = 'rules'
                 break;
         }
         window.location = location
