@@ -12,8 +12,8 @@ body {
     padding: 0 5%;
     font-size: 100%;
     font-family: 'Ubuntu', arial, sans-serif !important;
-    color: #1E8C06;
-    background: #ffffff;
+    color: #ffffff;
+    background: #c52128;
 }
 
 h2 {
@@ -30,7 +30,7 @@ h2 {
     list-style: none;
     margin: 50px 0 30px 50% !important;
     padding-left: 30px;
-    border-left: 8px solid #1E8C06;
+    border-left: 8px solid #ffffff;
 }
 #timeline li {
     margin: 40px 0;
@@ -86,7 +86,7 @@ h2 {
     margin-top: -20px;
 }
 .content:after {
-    border-right-color: #ffffff;
+    border-right-color: #c52128;
     border-width: 17px;
     top: 50%;
     margin-top: -17px;
@@ -117,19 +117,19 @@ label {
     cursor: auto;
     transform: translateX(42px);
 }
-.radio:checked + .relative .circle {
+.radio:checked + .relative {
     background: #ffffff;
 }
 .radio:checked ~ .content {
     max-height: 180px;
-    border-color: #1E8C06;
+    border-color: #4BE22A;
     margin-right: 20px;
     transform: translateX(20px);
     transition: max-height 0.4s linear, border-color 0.5s linear, transform 0.2s linear;
 }
 .radio:checked ~ .content p {
     max-height: 200px;
-    color: #1E8C06;
+    color: #ffffff;
     transition: color 0.3s linear 0.3s;
 }
 
