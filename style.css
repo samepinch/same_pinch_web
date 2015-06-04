@@ -235,14 +235,14 @@ ul.social-buttons li a:hover, a:focus {
     text-decoration: underline;
 }
 
-.sys_status_header{
+.sys_status_header {
     background-color: rgba(255,255,255,1);
-    border-bottom: 1px solid rgb(197, 33, 40);
+    border-bottom: 1px solid rgb(197,33,40);
     height: 56px;
-    top: 10;
+    top: 0;
     position: fixed;
-    left: 17px;
-    width: 100%
+    left: 0;
+    width: 100%;
 }
 
 @charset "utf-8";

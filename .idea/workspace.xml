@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ec691e5-7891-4c20-9451-4737c396f898" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/posts/index.html" afterPath="$PROJECT_DIR$/_site/posts/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts.html" afterPath="$PROJECT_DIR$/posts.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/style.css" afterPath="$PROJECT_DIR$/_site/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/systemstatus.css" afterPath="$PROJECT_DIR$/systemstatus.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/systemstatus.css" afterPath="$PROJECT_DIR$/_site/systemstatus.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="same_pinch_web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,11 +35,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="posts.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="posts.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/posts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5714286" vertical-offset="0" max-vertical-offset="1836">
+            <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="1836">
               <caret line="20" column="89" selection-start-line="20" selection-start-column="89" selection-end-line="20" selection-end-column="89" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="systemstatus.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/systemstatus.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5977918" vertical-offset="2851" max-vertical-offset="3485">
+              <caret line="190" column="0" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -53,8 +58,8 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="7968" max-vertical-offset="8670">
-              <caret line="504" column="1" selection-start-line="504" selection-start-column="1" selection-end-line="504" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3801" max-vertical-offset="8670">
+              <caret line="237" column="1" selection-start-line="237" selection-start-column="1" selection-end-line="237" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -107,11 +112,11 @@
         <option value="$PROJECT_DIR$/css/google-families/Noto_Sans.min.css" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/systemstatus.html" />
-        <option value="$PROJECT_DIR$/systemstatus.css" />
         <option value="$PROJECT_DIR$/_includes/js.html" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/posts.html" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/systemstatus.css" />
       </list>
     </option>
   </component>
@@ -733,22 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/systemstatus.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.933754" vertical-offset="0" max-vertical-offset="3485">
-          <caret line="184" column="5" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="7968" max-vertical-offset="8670">
-          <caret line="504" column="1" selection-start-line="504" selection-start-column="1" selection-end-line="504" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/systemstatus.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25714287" vertical-offset="0" max-vertical-offset="1088">
@@ -761,8 +750,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/posts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5714286" vertical-offset="0" max-vertical-offset="1836">
+        <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="1836">
           <caret line="20" column="89" selection-start-line="20" selection-start-column="89" selection-end-line="20" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3801" max-vertical-offset="8670">
+          <caret line="237" column="1" selection-start-line="237" selection-start-column="1" selection-end-line="237" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemstatus.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5977918" vertical-offset="2851" max-vertical-offset="3485">
+          <caret line="190" column="0" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
           <folding />
         </state>
       </provider>
