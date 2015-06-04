@@ -2,7 +2,12 @@
 title: posts
 ---
 
-{% include head.html %}
+{% if site.favicon %}<link rel="icon" href="{{ site.baseurl }}/img/favicon.ico" type="image/x-icon" />{% endif %}
+
+<script  src="{{ '/js/google_analytics.js' | prepend: site.baseurl }}"></script>
+
+<link rel="stylesheet" href="{{ '/css/google-families/ubuntu_300_400.min.css' | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ '/posts.css' | prepend: site.baseurl }}">
 
 <body>
 <div class="sys_status_header">
