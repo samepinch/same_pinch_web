@@ -744,6 +744,7 @@ ul.social-buttons li a:hover, a:focus {
     background-image:url(img/logo-main.png);
     width:220px;
     height:52px;
+    background-repeat:no-repeat;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
@@ -752,10 +753,40 @@ ul.social-buttons li a:hover, a:focus {
         width:220px;
         height:52px;
         background-size:220px 52px;
+        background-repeat:no-repeat;
     }
 }
 
+@media (max-width:767px)   {
+    #kol_embed_container_54190 {
+        width:280px !important;
+        margin: 0 auto !important;
+    }
 
+    .navbar-brand {
+        padding:6px;
+    }
+
+    .logo-main{
+        background-image:url(img/logo-main.png);
+        width:220px;
+        height:52px;
+        background-size:190px 45px;
+        background-repeat:no-repeat;
+
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+        .logo-main{
+            background-image:url(img/logo-main@2x.png);
+            width:220px;
+            height:52px;
+
+            background-size:190px 45px;
+            background-repeat:no-repeat;
+        }
+    }
+}
 
 @media(min-width:768px) and (max-width: 1024px){
 
