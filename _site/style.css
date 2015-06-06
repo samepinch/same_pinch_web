@@ -739,3 +739,28 @@ ul.social-buttons li a:hover, a:focus {
     color: #8C8A89;
     text-decoration: underline;
 }
+
+.logo-main{
+    background-image:url(img/logo-main.png);
+    width:220px;
+    height:52px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+    .logo-main{
+        background-image:url(img/logo-main@2x.png);
+        width:220px;
+        height:52px;
+        background-size:220px 52px;
+    }
+}
+
+
+
+@media(min-width:768px) and (max-width: 1024px){
+
+    .iphone-template {
+        width: 280px;
+        margin: 0 auto;
+    }
+}
