@@ -2,7 +2,6 @@
  * Created by maispride786 on 9/6/15.
  */
 $(document).ready(function(){
-   alert(getParameterByName("qa"));
     if(getParameterByName("qa").length<1){
         $('body').hide();
     }else {
@@ -37,7 +36,7 @@ render_as_html= function(data){
         comment(c);
     });
 
-
+    $("#viewPost .row").show();
 };
 
 comment = function(arg){

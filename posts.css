@@ -317,3 +317,7 @@ label.css-label {
     width: 295px;
     height: 150px;
 }
+
+#viewPost .row{
+    display: none;
+}
