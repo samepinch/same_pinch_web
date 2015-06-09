@@ -315,3 +315,7 @@ label.css-label {
         }
     }
 }
+#postContent #content img{
+    width: 295px;
+    height: 150px;
+}
