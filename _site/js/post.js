@@ -2,11 +2,12 @@
  * Created by maispride786 on 9/6/15.
  */
 $(document).ready(function(){
-    if(getParameterByName("qa").length<1){
+    id = getParameterByName("qs");
+    if(id.length<1){
         $('body').hide();
     }else {
         var data = new Object();
-        data["post_id"] = getParameterByName("qa");
+        data["post_id"] = id;
 
         $.ajax({
             type: "POST",
@@ -27,7 +28,7 @@ $(document).ready(function(){
 
 render_as_html= function(data){
     $("#postContent #content").html(data.content);
-    $(".profilepic-img").html(data.photo ? "<img src="+data.photo+" >" : "<div class='profilepic-placeholder'>"+data.initials+"</div>")
+    $(".profilepic-img").html(data.photo && data.photo.length>1 ? "<img src="+data.photo+" >" : "<div class='profilepic-placeholder'>"+data.initials+"</div>")
     $(".profile-name").html(data.name);
     $(".pViews").html(data.views);
     $(".plikes").html(data.upvote_count);
@@ -37,11 +38,11 @@ render_as_html= function(data){
     $.map(data.tags,function(t){
         $('span#tags').append("<div class=tag>"+t+"</div>");
     });
-
-    $.map(data.comments,function(c){
-        comment(c);
-    });
-
+   if(data.comments) {
+       $.map(data.comments, function (c) {
+           comment(c);
+       });
+   }
     $("#viewPost .row").show();
 };
 
