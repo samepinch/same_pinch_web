@@ -11,6 +11,7 @@
     position: fixed;
     left: 0;
     width: 100%;
+    z-index: 1000;
 }
 @charset "utf-8";
 /* CSS Document */
@@ -23,6 +24,7 @@ body {
     /* Margin bottom by footer height */
     margin-top: 70px;
     margin-bottom:40px;
+    background-color: #c52128;
 }
 body, h1, h2, h3, h4, h5 {
     font-family: 'Ubuntu', arial, sans-serif !important;
@@ -351,6 +353,7 @@ label.css-label {
     border-radius:10px;
     padding-top:10px;
     padding-bottom:10px;
+    background-color: #ffffff;
 }
 #viewPost.container {
     width:325px;
