@@ -11,7 +11,7 @@ $(document).ready(function(){
         $.ajax({
             type: "POST",
             dataType: "json",
-            url: "https://msocl.herokuapp.com/api/webviews.json",
+            url: "https://samepinch.herokuapp.com/api/webviews.json",
             data: {command: 'post', body: data},
             success: function (data) {
                 render_as_html(data.body);
@@ -27,7 +27,13 @@ $(document).ready(function(){
 
 render_as_html= function(data){
     $("#postContent #content").html(data.content);
+    $(".profilepic-img").html(data.photo ? "<img src="+data.photo+" >" : "<div class='profilepic-placeholder'>"+data.initials+"</div>")
+    $(".profile-name").html(data.name);
+    $(".pViews").html(data.views);
+    $(".plikes").html(data.upvote_count);
+    $(".pTime").html(data.createdAt);
     $('span#tags').html("");
+
     $.map(data.tags,function(t){
         $('span#tags').append("<div class=tag>"+t+"</div>");
     });

@@ -321,3 +321,73 @@ label.css-label {
 #viewPost .row{
     display: none;
 }
+
+#viewPost .tag {
+    border:1px solid #e8e8e8;
+    border-radius:10px;
+    padding:6px 8px; /*new*/
+    display:inline-block;
+    background-color:#f8f8f8;
+    color:#888888;
+    font-size:12px;
+    margin-top:4px;  /*new*/
+    margin-right:2px; /*new*/
+
+}
+.input-box {
+    border:none;
+    height:30px;
+    width:210px; /*new*/
+    text-indent:10px;
+    outline:none;
+}
+
+
+
+.viewPostWrapper {
+    border:1px solid #cccccc;
+    border-radius:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+#viewPost.container {
+    width:325px;
+
+}
+#viewPost .profilepic-img img {
+    border-radius:100%;
+    width:30px;
+    height:30px;
+}
+.profile-name {
+    color: #444444;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left:5px;
+    margin-top:5px;
+}
+.profilepic-placeholder {
+    background-color: #ffffff;
+    border-radius: 100%;
+    border: 1px solid #e8e8e8;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0;
+    font-size: 12px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #bbbbbb;
+    width:30px;
+    height:30px;
+}
+
+.icon-counts {
+    font-size:10px;
+}
+
+.input-comment {
+    border:none;
+    text-align:center;
+}
+
+
