@@ -2,7 +2,9 @@
  * Created by maispride786 on 9/6/15.
  */
 $(document).ready(function(){
+
     id = getParameterByName("qs");
+    console.log(id);
     if(id.length<1){
         $('body').hide();
     }else {
