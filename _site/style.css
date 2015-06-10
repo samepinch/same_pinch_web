@@ -825,3 +825,10 @@ ul.social-buttons li a:hover, a:focus {
     color:#f05f40 !important;
     text-decoration:underline;
 }
+
+.ptop200 {
+    padding-top:150px;
+}
+.mbottom30 {
+    margin-bottom:30px;
+}
