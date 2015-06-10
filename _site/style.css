@@ -776,6 +776,13 @@ ul.social-buttons li a:hover, a:focus {
 
     }
 
+    .nav.navbar-nav.nav-right  {
+        float:left !important;
+    }
+    .ptop200 {
+        padding-top:25px;
+    }
+
     @media only screen and (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
         .logo-main{
             background-image:url(img/logo-main@2x.png);
@@ -794,4 +801,27 @@ ul.social-buttons li a:hover, a:focus {
         width: 280px;
         margin: 0 auto;
     }
+}
+
+.download-logos img {
+    border:1px solid #aaaaaa;
+    border-radius:8px;
+}
+.navbar-default {
+    background-color:#ffffff;
+}
+.mtop5 {
+    margin-top:5px;
+}
+.mright5 {
+    margin-right:5px;
+}
+
+#contact a {
+    color:#f05f40;
+}
+
+#contact a:hover, #contact a:active, #contact a:focus {
+    color:#f05f40 !important;
+    text-decoration:underline;
 }

@@ -320,8 +320,7 @@ ul.social-buttons li a:hover, a:focus {
     color:#f05f40;
 }
 
-#contact a:hover {
-    color:#f05f40;
+#contact a:hover, #contact a:active, #contact a:focus {
+    color:#f05f40 !important;
     text-decoration:underline;
 }
-
