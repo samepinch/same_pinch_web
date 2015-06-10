@@ -2,16 +2,9 @@
  * Created by maispride786 on 9/6/15.
  */
 $(document).ready(function(){
-
-    parameterByName = function(name){
-        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)");
-        results = regex.exec(location.search);
-        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-    };
-
-    
-    id = parameterByName("qs");
+    var regex = new RegExp("[\\?&]qs=([^&#]*)");
+    results = regex.exec(location.search);
+    id = results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
     console.log(id);
     console.log(id);
     if(id.length<1){
