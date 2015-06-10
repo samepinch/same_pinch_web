@@ -3,7 +3,15 @@
  */
 $(document).ready(function(){
 
+    getParameterByName = function(name){
+        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)");
+        results = regex.exec(location.search);
+        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    };
+
     id = getParameterByName("qs");
+    console.log(id);
     console.log(id);
     if(id.length<1){
         $('body').hide();
@@ -62,9 +70,3 @@ comment = function(arg){
 
 };
 
-getParameterByName = function(name){
-    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)");
-    results = regex.exec(location.search);
-    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-};
