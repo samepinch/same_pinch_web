@@ -2,8 +2,8 @@
  * Created by maispride786 on 9/6/15.
  */
 $(document).ready(function(){
-
-    id = getParameterByName("qs");
+    id = parameterByName("qs");
+    console.log(id);
     console.log(id);
     if(id.length<1){
         $('body').hide();
@@ -62,7 +62,7 @@ comment = function(arg){
 
 };
 
-getParameterByName = function(name){
+parameterByName = function(name){
     name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
     var regex = new RegExp("[\\?&]" + name + "=([^&#]*)");
     results = regex.exec(location.search);
