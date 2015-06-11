@@ -27,6 +27,7 @@ body {
     background-color: #c52128;
 }
 body, h1, h2, h3, h4, h5 {
+
     font-family: 'Ubuntu', arial, sans-serif !important;
     color:#444444;
 }
@@ -320,6 +321,15 @@ label.css-label {
 #postContent #content img{
     width: 295px;
     height: 150px;
+    display: block;
+    margin: 15px auto;
+}
+
+
+#postContent #content{
+    line-height: 25px;
+    word-spacing: 3px;
+    color: #4B4343;
 }
 
 #viewPost .row{
@@ -354,6 +364,7 @@ label.css-label {
     padding-top:10px;
     padding-bottom:10px;
     background-color: #ffffff;
+    width: 600px !important;
 }
 #viewPost.container {
     width:325px;
@@ -387,7 +398,8 @@ label.css-label {
 }
 
 .icon-counts {
-    font-size:10px;
+    font-size:14px;
+    color:#888
 }
 
 .input-comment {
