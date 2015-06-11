@@ -14,7 +14,7 @@ $(document).ready(function(){
         $.ajax({
             type: "POST",
             dataType: "json",
-            url: "http://localhost:3000/api/webviews.json",
+            url: "https://samepinch.herokuapp.com/api/webviews.json",
             data: {command: 'post', body: data},
             success: function (data) {
                 render_as_html(data.body);
