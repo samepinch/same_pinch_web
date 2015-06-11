@@ -9,7 +9,7 @@ body, h1, h2, h3, h4, h5 {
 
 h2 {
     font-size:34px;
-    margin-top:140px;
+    /*margin-top:140px;*/
 }
 .btn-primary {
     background-color:#c52128;
@@ -39,7 +39,10 @@ hr {
 #contact a {
     color:#1886fe;
 }
+#contact ul li a {
 
+    color:#ffffff;
+}
 
 
 .navbar-default .nav > li {
@@ -222,7 +225,7 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:hover, a:focus {
-    background-color: #f05f40;
+    /*background-color: #f05f40;*/
 }
 
 .fa {
@@ -244,6 +247,11 @@ ul.social-buttons li a:hover, a:focus {
     width:220px;
     height:52px;
     background-repeat:no-repeat;
+}
+
+
+.ptop200 {
+    padding-top:250px;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
@@ -323,11 +331,9 @@ ul.social-buttons li a:hover, a:focus {
 #contact a:hover, #contact a:active, #contact a:focus {
     color:#f05f40 !important;
     text-decoration:underline;
+    display:inline-block;
 }
 
-.ptop200 {
-    padding-top:150px;
-}
 .mbottom30 {
     margin-bottom:30px;
 }
