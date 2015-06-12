@@ -28,9 +28,9 @@ h2 {
  * ------------------------------------- */
 #timeline {
     list-style: none;
-    margin: 50px 0 30px 50% !important;
+    margin: 50px 0 30px 20% !important;
     padding-left: 30px;
-    border-left: 8px solid #4BE22A;
+    border-left: 150px solid #4BE22A;
 }
 #timeline li {
     margin: 40px 0;
@@ -190,7 +190,7 @@ label {
 
 .sys_status_header {
     background-color: rgba(255,255,255,1);
-    /*border-bottom: 1px solid rgb(197,33,40);*/
+    border-bottom: 1px solid rgb(197,33,40);
     height: 56px;
     top: 0;
     position: fixed;
