@@ -12,8 +12,8 @@ body {
     padding: 0 5%;
     font-size: 100%;
     font-family: 'Ubuntu', arial, sans-serif !important;
-    color: #ffffff;
-    background: #c52128;
+    /*color: #ffffff;*/
+    /*background: #c52128;*/
 }
 
 h2 {
@@ -30,7 +30,7 @@ h2 {
     list-style: none;
     margin: 50px 0 30px 50% !important;
     padding-left: 30px;
-    border-left: 8px solid #ffffff;
+    border-left: 8px solid #4BE22A;
 }
 #timeline li {
     margin: 40px 0;
@@ -86,7 +86,7 @@ h2 {
     margin-top: -20px;
 }
 .content:after {
-    border-right-color: #c52128;
+    /*border-right-color: #c52128;*/
     border-width: 17px;
     top: 50%;
     margin-top: -17px;
@@ -190,7 +190,7 @@ label {
 
 .sys_status_header {
     background-color: rgba(255,255,255,1);
-    border-bottom: 1px solid rgb(197,33,40);
+    /*border-bottom: 1px solid rgb(197,33,40);*/
     height: 56px;
     top: 0;
     position: fixed;
@@ -240,4 +240,15 @@ label {
             background-repeat:no-repeat;
         }
     }
+}
+
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #c52128;
 }
