@@ -1,87 +1,69 @@
-<html itemscope itemtype="http://schema.org/Article">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
-<script  src="/js/jquery.js"></script>
-<script  src="/js/google_analytics.js"></script>
-<script  src="/js/post.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>404 error page</title>
+    <!-- Latest compiled and minified CSS -->
 
-<link rel="stylesheet" href="/css/google-families/ubuntu_300_400.min.css">
-<link rel="stylesheet" href="/posts.css">
-<meta name='keywords' content="SamePinch, samepinch, same pinch, Same Pinch, Samepinch App, SamePinch iOS App, SamePinch Android App">
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        .error-template {
+            text-align: center;
+        }
+        .error-actions {
+            margin-top: 20px;
+        }
+        h1 {
+            font-size: 60px;
+        }
+        body {
+            background-color: #f1f1f1;
+        }
+        .btn {
+            display: inline-block;
+            padding: 6px 12px;
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+        }
+        .btn:hover {
+            background-color: #1b6ba5;
+        }
+        .btn-primary {
+            color: #fff;
+            background-color: #337ab7;
+            border-color: #2e6da4;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+
 </head>
 
 <body>
-<div class="sys_status_header">
-    <!--<a href="{{ site.url }}">-->
-    <div class="logo-main"></div>
-    <!--</a>-->
+<div class="error-template"> <img src="http://www.samepinch.co/img/logo-main@2x.png" alt=""/>
+    <h1> Oops!</h1>
+    <h2> 404 Not Found</h2>
+    <div class="error-details"> Sorry, an error has occured, Requested page not found! </div>
+    <div class="error-actions"> <a href="/" class="btn btn-primary btn-lg"> Take Me Home </a> </div>
 </div>
-<div id="viewPost" class="container viewPostWrapper">
-    <!-- Example row of columns -->
-    <div class="row">
-        <div class="col-md-12">
-            <div class="row row-padding border-bottom">
-                <div class="col-md-5 col-xs-4">
-
-                    <div class="profilepic-img pull-left">
-
-                    </div>
-                    <div class="profile-name pull-left">David</div>
-                </div>
-
-                <div class="col-md-7 col-xs-8">
-                    <div class="pull-right mtop5 icon-counts"> <img src="/img/icon-view-count.png" width="26" height="15" alt=""> <span class="mright5 pViews"></span> <img src="/img/icon-upvote-gray.png" width="21" height="21" alt=""> <span class="mright5 plikes"></span> <img src="/img/time.png" width="20" height="20" alt=""> <span class="mright5 time-style pTime"></span> </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="col-md-12 mtop">
-            <div id="postContent" class="col-md-12 nopadding">
-                <span id="content"></span>
-
-                <div class="clearfix"></div>
-
-
-
-            <div class="col-md-12 border-bottom row-padding">
-
-                <div class="row">
-
-                    <div class="col-md-8">
-
-                        <span id="tags"></span>
-
-                    </div>
-
-                    <div class="col-md-4 ">
-                        <div class="pull-right">
-                        <img src="/img/icon-flag.png" width="35" height="35" alt="">
-                        <img src="/img/icon-like.png" width="35" height="35" alt="">
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-
-
-            <div id="comments">
-            </div>
-
-
-            <div class="col-md-12 nopadding input-comment row-padding">
-                <img src="/img/btn-comment.png" width="73" height="41"  alt="">
-
-            </div>
-        </div>
-
-        </div>
-    </div>
-</div>
-
-<!-- /container -->
-
 </body>
 </html>
