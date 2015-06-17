@@ -12,6 +12,7 @@ $(function() {
                 break;
             case '#app_rules':
                 location = 'rules'
+                break;
             case '#privacy-policy':
                 location = 'privacy-policy'
                 break;
