@@ -2,53 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ec691e5-7891-4c20-9451-4737c396f898" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/google-families/Josefin_Sans-font-face.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/google-families/Josefin_Sans-font-face2.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/google-families/merriweather-font-face.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/google-families/merriweather-font-face10.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/google-families/merriweather-font-face11.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/google-families/merriweather-font-face12.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/google-families/merriweather-font-face13.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/google-families/merriweather-font-face14.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/google-families/merriweather-font-face15.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/google-families/merriweather-font-face16.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/google-families/merriweather-font-face2.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/google-families/merriweather-font-face3.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/google-families/merriweather-font-face4.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/google-families/merriweather-font-face5.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/google-families/merriweather-font-face6.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/google-families/merriweather-font-face7.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/google-families/merriweather-font-face8.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/google-families/merriweather-font-face9.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/google-families/Josefin_Sans-font-face.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/google-families/Josefin_Sans-font-face2.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/google-families/merriweather-font-face.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/google-families/merriweather-font-face10.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/google-families/merriweather-font-face11.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/google-families/merriweather-font-face12.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/google-families/merriweather-font-face13.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/google-families/merriweather-font-face14.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/google-families/merriweather-font-face15.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/google-families/merriweather-font-face16.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/google-families/merriweather-font-face2.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/google-families/merriweather-font-face3.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/google-families/merriweather-font-face4.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/google-families/merriweather-font-face5.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/google-families/merriweather-font-face6.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/google-families/merriweather-font-face7.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/google-families/merriweather-font-face8.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/google-families/merriweather-font-face9.woff2" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/google-families/Josefin_Sans.min.css" afterPath="$PROJECT_DIR$/_site/css/google-families/Josefin_Sans.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/google-families/Josefin_Sans.min.css" afterPath="$PROJECT_DIR$/css/google-families/Josefin_Sans.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/google-families/Merriweather.min.css" afterPath="$PROJECT_DIR$/_site/css/google-families/Merriweather.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/google-families/Merriweather.min.css" afterPath="$PROJECT_DIR$/css/google-families/Merriweather.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/google-families/Noto_Sans.min.css" afterPath="$PROJECT_DIR$/css/google-families/Noto_Sans.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/home.html" afterPath="$PROJECT_DIR$/_includes/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/google-families/open_sans.min.css" afterPath="$PROJECT_DIR$/css/google-families/open_sans.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/style.css" afterPath="$PROJECT_DIR$/_site/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/google-families/ubuntu_300_400.min.css" afterPath="$PROJECT_DIR$/css/google-families/ubuntu_300_400.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/js/global.js" afterPath="$PROJECT_DIR$/_site/js/global.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/global.js" afterPath="$PROJECT_DIR$/js/global.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="same_pinch_web.iws" />
@@ -77,92 +32,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style.css">
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="332" column="1" selection-start-line="332" selection-start-column="1" selection-end-line="332" selection-end-column="1" />
+            <state vertical-scroll-proportion="-20.26923">
+              <caret line="31" column="62" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <file leaf-file-name="global.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/global.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.769231">
-              <caret line="18" column="109" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="109" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Josefin_Sans.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/google-families/Josefin_Sans.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="469" selection-start-line="0" selection-start-column="469" selection-end-line="0" selection-end-column="469" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Merriweather.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/google-families/Merriweather.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="138" selection-start-line="0" selection-start-column="134" selection-end-line="0" selection-end-column="138" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Noto_Sans.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/google-families/Noto_Sans.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="118" selection-start-line="0" selection-start-column="114" selection-end-line="0" selection-end-column="118" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="open_sans.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/google-families/open_sans.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="129" selection-start-line="0" selection-start-column="124" selection-end-line="0" selection-end-column="129" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ubuntu_300_400.min.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/google-families/ubuntu_300_400.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="121" selection-start-line="0" selection-start-column="116" selection-end-line="0" selection-end-column="121" />
-              <folding />
+            <state vertical-scroll-proportion="0.40031397">
+              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+              <folding>
+                <marker date="1434521146825" expanded="true" signature="1421:1462" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -197,6 +84,7 @@
         <option value="$PROJECT_DIR$/css/google-families/Noto_Sans.min.css" />
         <option value="$PROJECT_DIR$/css/google-families/open_sans.min.css" />
         <option value="$PROJECT_DIR$/css/google-families/ubuntu_300_400.min.css" />
+        <option value="$PROJECT_DIR$/js/global.js" />
       </list>
     </option>
   </component>
@@ -212,6 +100,22 @@
     <option name="y" value="-5" />
     <option name="width" value="1318" />
     <option name="height" value="773" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -239,7 +143,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -268,11 +171,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="google-families" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -292,6 +191,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -304,6 +204,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.splitter.proportion" value="0.25846702" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -415,6 +317,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
   </component>
@@ -437,24 +345,24 @@
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850942" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940239" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35508347" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23107256" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850942" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -526,13 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="417" column="14" selection-start-line="376" selection-start-column="4" selection-end-line="417" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -627,31 +528,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8067227">
-          <caret line="30" column="79" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/global.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rules.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08571429">
           <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/features.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538">
-          <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
         </state>
       </provider>
     </entry>
@@ -715,7 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,7 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,7 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -739,37 +616,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="109" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="109" />
           <folding />
         </state>
@@ -779,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.3464568">
           <caret line="125" column="88" selection-start-line="125" selection-start-column="84" selection-end-line="125" selection-end-column="88" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -787,7 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="161" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="161" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,17 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7216981">
           <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-          <folding>
-            <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="332" column="1" selection-start-line="332" selection-start-column="1" selection-end-line="332" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,31 +660,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="469" selection-start-line="0" selection-start-column="469" selection-end-line="0" selection-end-column="469" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/google-families/Merriweather.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="138" selection-start-line="0" selection-start-column="134" selection-end-line="0" selection-end-column="138" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/google-families/Noto_Sans.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="118" selection-start-line="0" selection-start-column="114" selection-end-line="0" selection-end-column="118" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/google-families/open_sans.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
+        <state vertical-scroll-proportion="0.05629139">
           <caret line="0" column="129" selection-start-line="0" selection-start-column="124" selection-end-line="0" selection-end-column="129" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -845,9 +674,95 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="121" selection-start-line="0" selection-start-column="116" selection-end-line="0" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/google-families/Noto_Sans.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="118" selection-start-line="0" selection-start-column="114" selection-end-line="0" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/google-families/Merriweather.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="138" selection-start-line="0" selection-start-column="134" selection-end-line="0" selection-end-column="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="115" column="1" selection-start-line="103" selection-start-column="0" selection-end-line="115" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6122449">
+          <caret line="56" column="51" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45368916">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/features.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2913257">
+          <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.26923">
+          <caret line="31" column="62" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40031397">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <marker date="1434521146825" expanded="true" signature="1421:1462" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
