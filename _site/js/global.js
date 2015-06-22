@@ -13,7 +13,7 @@ $(function() {
                 location = 'rules'
                 break;
             case '#privacy-policy':
-                location = 'privacy-policy'
+                location = 'privacypolicy'
                 break;
         }
         window.location = location
