@@ -1,0 +1,251 @@
+/*
+	General styles
+*/
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #c7e1ff;
+    /*font-size: 13px;*/
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+body, html {
+    height: 100%
+}
+
+h2 {
+    font-size: 20px;
+}
+a, a:visited {
+    text-decoration: none;
+    color: #2e639e;
+}
+a:hover {
+    text-decoration: underline;
+}
+.touchonly {
+    display: none;
+}
+html.touch .touchonly {
+    display: block;
+}
+.noselect * {
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+}
+.doselect * {
+    user-select: auto;
+    -webkit-user-select: auto;
+    -khtml-user-select: auto;
+    -moz-user-select: auto;
+    -o-user-select: auto;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+/*
+	Containers
+*/
+#content-wrapper, #example-wrapper {
+    height: 100%;
+}
+.scrollContainer {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%
+}
+.scrollContainer {
+    height: 100%;
+    margin: auto;
+}
+
+#example-wrapper .scrollContent {
+    height: 100%;
+}
+
+#example-wrapper.scrollContainer .scrollContent {
+    width: 100%;
+    height: auto;
+}
+
+section#titlechart {
+    text-align: center;
+    position: relative;
+    height: 100%;
+    height: 100vh;
+}
+
+.demo#section-slides, .demo#section-wipes {
+    height: 100%;
+    width: 100%;
+    background-image: none;
+}
+
+#titlechart{background-color: #F44336}
+
+#slide-2{background-color: #FF9800}
+
+#slide-3{background-color: #FFEB3B}
+
+#slide-4{background-color: #4CAF50}
+#slide-5{background-color:#2196F3}
+#slide-6{background-color: #3F51B5}
+
+#pinContainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.panel {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+#last_slide{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top:-2%;
+    background-color:#c166ff;
+}
+
+
+.hsContent {
+    position: absolute;
+    text-align: center;
+    width:100%;
+    height: 35%;
+    bottom: 30%;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    /*padding: 10px 0;*/
+}
+
+#titlechart .hsContent, #last_slide .hsContent{
+    /*height: 100%;*/
+    background-color: transparent;
+}
+
+.hsContent h1, h1 {
+    font-weight:700;
+    font-size: 40px;
+}
+
+.hsContent p {
+    font-size: 25px;
+}
+
+.hsContent a {
+    color: #b2b2b2;
+    text-decoration: underline;
+}
+
+.subTitle{
+    margin-left: 19%;
+    font-size: 14px;
+    font-style: italic;
+
+}
+.quotation{
+    margin-bottom: 0px;
+    font-style: italic;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    z-index: 10000;
+    background-color: white;
+}
+
+header .logo img{
+    width: 220px;
+    height: 52px;
+    margin: 10px 0 0 25px;
+
+}
+
+.footer {
+    background-color: white;
+    height: 150px;
+    position: relative;
+    top:-2%;
+}
+
+.footer div{
+    display: block;
+    text-align: center;
+}
+
+.footer a{ margin-right: 10px;}
+
+.footer .socialLinks{
+    height:50px;
+    margin-top: 15px;
+}
+.footer .socialLinks a{
+    border: 3px solid rgb(46, 99, 158);
+    padding: 5px 15px;
+    border-radius: 41px;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.footer .socialLinks a:hover{
+    background-color: rgb(46, 99, 158);
+    color: white;
+}
+
+.download-logos img{
+    border: 2px solid;
+    border-radius: 12px;
+    width: 194px;
+    height: 59px;
+}
+
+.download-logos a{
+    text-decoration: none;
+}
+
+
+
+
+@media only screen and (max-device-width : 736px) {
+
+    .download-logos img{
+        border: 1px solid;
+        border-radius: 6px;
+        width: 100px;
+        height: 30px;
+    }
+
+
+    .logo{ text-align: center; }
+    header .logo img{margin:10px 0 0 0;}
+
+
+
+}

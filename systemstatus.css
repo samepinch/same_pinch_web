@@ -11,7 +11,7 @@ body {
     margin: 0 auto;
     padding: 0 5%;
     font-size: 100%;
-    font-family: 'Ubuntu', arial, sans-serif !important;
+    font-family: 'Quicksand', sans-serif;
     /*color: #ffffff;*/
     /*background: #c52128;*/
 }
@@ -190,7 +190,7 @@ label {
 
 .sys_status_header {
     background-color: rgba(255,255,255,1);
-    border-bottom: 1px solid rgb(197,33,40);
+    /*border-bottom: 1px solid rgb(197,33,40);*/
     height: 56px;
     top: 0;
     position: fixed;
@@ -200,7 +200,7 @@ label {
 }
 
 .logo-main{
-    background-image:url(img/logo-main.png);
+    background-image:url(img/logo.png);
     width:220px;
     height:52px;
     background-repeat:no-repeat;
@@ -222,7 +222,7 @@ label {
     }
 
     .logo-main{
-        background-image:url(img/logo-main.png);
+        background-image:url(img/logo.png);
         width:220px;
         height:52px;
         background-size:190px 45px;

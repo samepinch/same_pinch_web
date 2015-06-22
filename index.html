@@ -1,24 +1,172 @@
----
----
+
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=500" />
+    <meta name="keywords" content="ScrollMagic, example, scrolling, attaching, scrollbar, anchor, link, in-page, navigation, hash" />
+    <meta name="author"	content="Jan Paepke (www.janpaepke.de)" />
+    <title>SamePinch</title>
+    <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 
-{% include head.html %}
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
-<body id="page-top">
 
-{% include header.html %}
-  <!--<div id="main">-->
+</head>
+<body>
+<header> <div class="logo"><img src="img/logo-main@2x.png"></div></header>
+<div id="content-wrapper">
 
-      {% include home.html %}
-      {% include about.html %}
-      {% include features.html %}
-      {% include how_it_works.html %}
-      {% include contact.html %}
+    <div id="example-wrapper">
 
-  <!--</div>-->
+        <div class="scrollContent">
+            <section id="titlechart">
 
-{% include js.html %}
+                <div class="hsContent">
+                    <h1>SamePinch is a community of like-minded <br/>
+                        people(dots, we say) connected via shared interests.</h1>
+                    <div class="download-logos">
+                        <a href="https://itunes.apple.com/app/apple-store/id998823966?pt=55685824&ct=ORGWEB&mt=8">
+                            <img src="img/available-appstore-logo.png"  alt=""/>
+                        </a>
+                        <a href="">
+                            <img src="img/comingsoon-android-logo.png" alt=""/>
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+            <section class="demo" id="section-wipes">
+                <div id="pinContainer">
+                    <section class="panel" id="slide-2">
+
+                        <div class="hsContent">
+                            <h1> Ask</h1>
+                            <p class="black">Have a question? need an opinion?</p>
+                            <p>SamePinch'ers around the globe are here to help you!</p>
+
+</div>
+
+                    </section>
+                    <section class="panel" id="slide-3">
+
+                        <div class="hsContent">
+                            <h1>Assist</h1>
+                            <p>Been there, done that?</p>
+                            <p>Assist someone in need.</p>
+
+                        </div>
+
+                    </section>
+                    <section class="panel" id="slide-4">
+
+                        <div class="hsContent">
+                            <h1>Attain</h1>
+                            <p>Nothing to Ask? Can't Assist? Sit back and relax.</p>
+                            <p>Learn something new from a vivid collection of posts/comments from fellow SamePinch'ers!</p>
+                        </div>
+
+                    </section>
+                    <section class="panel" id="slide-5">
+
+                        <div class="hsContent">
+                            <h1>Tags</h1>
+                            <p>Tag your interests, after all,</p> <p>  that's how SamePinch'ers connect!</p>
+                        </div>
+
+                    </section>
+                    <section class="panel" id="slide-6">
+
+                            <div class="hsContent">
+                                <h1>Anonymous</h1>
+                                <p>Shh! Unleash yourself being Ask'er-Assist'er-Attain'er whilst anonymous!</p>
+                            </div>
+
+                    </section>
+
+
+                </div>
+
+
+
+                <section id="last_slide">
+
+                        <div class="clearfix"></div>
+                    <div class="hsContent">
+                        <h1>Welcome to SamePinch</h1>
+                        <h2>SamePinch is created by idealists who believe in new era of social networking <br/>where people engage with others on a wide variety of topics.<br/>
+
+                            Imagine a virtual wall where you can post anything you like (even as anonymous) <br/>and community is watching, learning and commenting.</h2>
+                        <br/>
+                        <h2 class="quotation">be the change you wish to see in the world</h2>
+
+                        <span class="subTitle italic">-Mahatma Gandhi</span>
+                    </div>
+
+                </section>
+
+                <section id="slide-8" class="footer">
+
+                               <div class="clearfix"></div>
+<br/>
+                                <div class="links">
+                                    <a class="footer_anchor" href="#T&C">Terms &amp; Conditions</a> &nbsp;
+                                    <a class="footer_anchor" href="#sys_status">System Status</a> &nbsp;
+                                    <a class="footer_anchor" href="#app_rules">App Rules</a> &nbsp;
+                                    <a class="footer_anchor" href="#privacy-policy">Privacy Policy</a>
+                                </div>
+                                <div class="socialLinks">
+                                    <div class="clearfix"></div>
+                                    <a href="https://www.facebook.com/SamePinch.co" target="_blank">f</a>
+                                    <a href="https://twitter.com/samepinchapp" target="_blank">t</a>
+                                    <a href="https://instagram.com/samepinchapp/" target="_blank">i</span></a>
+                                </div>
+                                <div class="cText">Copyright © SamePinch 2015</div>
+
+
+                </section>
+            </section>
+
+        </div>
+
+    </div>
+
+</div>
 
 </body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+<script type="text/javascript" src="js/TweenMax.min.js"></script>
+<script type="text/javascript" src="js/ScrollMagic.js"></script>
+<script type="text/javascript" src="js/animation.gsap.js"></script>
+<script type="text/javascript" src="js/global.js"></script>
+<script type="text/javascript" src="js/google_analytics.js"></script>
+
+<script>
+    $(function () { // wait for document ready
+        // init
+        var controller = new ScrollMagic.Controller();
+
+        // define movement of panels
+        var wipeAnimation = new TimelineMax()
+                .fromTo("section.panel#slide-3",    1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone})  // in from right
+                .fromTo("section.panel#slide-4", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone}) // in from top
+                .fromTo("section.panel#slide-5", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone}) // in from top
+                .fromTo("section.panel#slide-6", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone}) // in from top
+
+        // create scene to pin and link animation
+        new ScrollMagic.Scene({
+            triggerElement: "#pinContainer",
+            triggerHook: "onLeave",
+            duration: "500%"
+        })
+                .setPin("#pinContainer")
+                .setTween(wipeAnimation)
+                .addIndicators() // add indicators (requires plugin)
+                .addTo(controller);
+    });
+</script>
 </html>
