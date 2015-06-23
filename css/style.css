@@ -246,6 +246,34 @@ header .logo img{
     .logo{ text-align: center; }
     header .logo img{margin:10px 0 0 0;}
 
+    .hsContent p {
+        -webkit-margin-before: 0.5em;
+        -webkit-margin-after: 0.5em;
+    }
 
 
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    body{
+        font-size: 8px;
+    }
+    .hsContent h1, h1 {
+        font-weight:700;
+        font-size: 25px;
+    }
+
+    .hsContent p {
+        font-size: 15px;
+        -webkit-margin-before: 0.5em;
+        -webkit-margin-after: 0.5em;
+    }
+
+    h2{
+        font-size: 12px;
+    }
+    .subTitle{
+        font-size:10px;
+    }
 }
