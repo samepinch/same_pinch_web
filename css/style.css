@@ -3,7 +3,7 @@
 */
 body {
     font-family: 'Quicksand', sans-serif;
-    background-color: #c7e1ff;
+    background-color: #F44336;
     /*font-size: 13px;*/
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -277,3 +277,35 @@ header .logo img{
         font-size:10px;
     }
 }
+
+
+/* new css */
+
+.body-content{
+    padding: 60px 32px 20px 32px;
+    color: #ffffff;
+    line-height: 1.4;
+}
+
+.txt_center{
+    text-align: center;
+}
+
+@media only screen and (max-device-width : 736px) {
+
+    .download-logos img{
+        border: 1px solid;
+        border-radius: 6px;
+        width: 100px;
+        height: 30px;
+    }
+    .logo{ text-align: center; }
+    header .logo img{margin:10px 0 0 0;}
+}
+
+@media only screen and (max-width: 736px) {
+    .font_size{
+        font-size: 30px;
+    }
+}
+
