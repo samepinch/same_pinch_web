@@ -1,59 +1,64 @@
 ---
 title: systemstatus
 ---
-{% if site.favicon %}<link rel="icon" href="{{ site.baseurl }}/img/favicon.ico" type="image/x-icon" />{% endif %}
 
-<!--<script  src="{{ '/js/google_analytics.js' | prepend: site.baseurl }}"></script>-->
+<head>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'>
+    <meta content='yes' name='apple-mobile-web-app-capable'>
+    <meta content='user-scalable=no, width=640' name='viewport'>
+    <meta content=‘SamePinch’ name='apple-mobile-web-app-title'>
+    <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" type="text/css">
+    {% if site.favicon %}<link rel="icon" href="{{ site.baseurl }}/img/favicon.ico" type="image/x-icon" />{% endif %}
+</head>
 
-<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="{{ '/systemstatus.css' | prepend: site.baseurl }}">
-
-<div class="sys_status_header">
-    <a href="{{ site.url }}">
-        <div class="logo-main"></div>
-    </a>
+<header> <div class="logo"><img src="{{ site.baseurl }}/img/logo-main@2x.png"></div></header>
+<div class="body-content">
+    <div class="font_size">
+        <h1 class="txt_center">SamePinch :: Status</h1>
+        <ul id='timeline'>
+            <li class='work'>
+                <input class='radio' id='work3' name='works' type='radio'>
+                <div class="relative">
+                    <label for='work3'>No issues</label>
+                    <span class='date'>Now</span>
+                    <span class='circle'></span>
+                </div>
+                <div class='content'>
+                    <p>
+                        Every thing works fine.
+                    </p>
+                </div>
+            </li>
+            <li class='work'>
+                <input class='radio' id='work2' name='works' type='radio' >
+                <div class="relative">
+                    <label for='work2'>First post written on the wall</label>
+                    <span class='date'>02 June 2015</span>
+                    <span class='circle'></span>
+                </div>
+                <div class='content'>
+                    <p>
+                        &nbsp;
+                    </p>
+                </div>
+            </li>
+            <li class='work'>
+                <!-- add checked to input to display paragraph
+                <input class='radio' id='work4' name='works' type='radio' checked> -->
+                <input class='radio' id='work' name='works' type='radio'>
+                <div class="relative">
+                    <label for='work'>App Released</label>
+                    <span class='date'>01 June 2015</span>
+                    <span class='circle'></span>
+                </div>
+                <div class='content'>
+                    <p>
+                        SamePinch app released and you can download it.
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
 </div>
-<h2 style="text-align: center;  margin-top: 91px !important;">Status</h2>
-<hr class="primary">
-<ul id='timeline'>
-    <li class='work'>
-        <input class='radio' id='work3' name='works' type='radio'>
-        <div class="relative">
-            <label for='work3'>No issues</label>
-            <span class='date'>Now</span>
-            <span class='circle'></span>
-        </div>
-        <div class='content'>
-            <p>
-                Every thing works fine.
-            </p>
-        </div>
-    </li>
-    <li class='work'>
-        <input class='radio' id='work2' name='works' type='radio' >
-        <div class="relative">
-            <label for='work2'>First post written on the wall</label>
-            <span class='date'>02 June 2015</span>
-            <span class='circle'></span>
-        </div>
-        <div class='content'>
-            <p>
-            </p>
-        </div>
-    </li>
-    <li class='work'>
-        <!-- add checked to input to display paragraph
-        <input class='radio' id='work4' name='works' type='radio' checked> -->
-        <input class='radio' id='work' name='works' type='radio'>
-        <div class="relative">
-            <label for='work'>App Released</label>
-            <span class='date'>01 June 2015</span>
-            <span class='circle'></span>
-        </div>
-        <div class='content'>
-            <p>
-                SamePinch app released and you can download it.
-            </p>
-        </div>
-    </li>
-</ul>
