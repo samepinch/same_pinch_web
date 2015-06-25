@@ -191,6 +191,10 @@ label {
     transition: color 0.3s linear 0.3s;
 }
 
+.container{
+
+}
+
 
 @media only screen and (max-width: 736px) {
     .logo{ text-align: center; }
