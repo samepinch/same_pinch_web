@@ -208,6 +208,12 @@ header .logo img{
 @media only screen and (max-device-width : 736px) {
     .logo{ text-align: center; }
     header .logo img{margin:10px 0 0 0;}
+
+    .footer .links a{
+        font-size: 30px;
+        margin-right:15px;
+    }
+
 }
 
 
