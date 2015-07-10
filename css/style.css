@@ -10,6 +10,7 @@ body {
 body, html {
     height: 100%;
     width:100%;
+    margin:0px !important;
 }
 
 h2 {
@@ -138,13 +139,21 @@ label {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
+
+.total_body{
+    padding-top: 70px;
+    color: #ffffff;
+    line-height: 1.4;
+}
+
 .app_status{
+    margin-top: 20px;
     position: relative;
     height: 150px;
     width: 150px;
     border: 3px solid #E8A9A9;
     border-radius: 150px;
-    margin: 0px 0px 0px 475px;
+    margin: 0 auto;
 }
 
 .status_top{
@@ -152,14 +161,14 @@ label {
 }
 
 .status{
-     margin: 50px 0 30px 49% !important;
-     padding-left: 30px;
-     font-weight: 600;
-     border-left: 4px solid #4BE22A;
+    margin: 23px 0 30px 50% !important;
+    padding-left: 30px;
+    font-weight: 600;
+    border-left: 4px solid #4BE22A;
 }
 
 .status_date{
-    left: 460px;
+    left: 38%;
     position: absolute;
     margin-top: 10px;
 }
@@ -167,9 +176,10 @@ label {
 .circle{
     height: 10px;
     width: 10px;
-    border-radius: 150px;
-    border: 5px solid #E1EDDE;
-    left: 585px;
+    border-radius: 100px;
+    border: 6px solid #E1EDDE;
+    margin-left: -4px;
+    left: 50%;
     position: absolute;
     margin-top: 15px;
 }
@@ -202,12 +212,15 @@ label {
     .logo{ text-align: center; }
     header .logo img{margin:10px 0 0 0;}
 
+    .total_body{
+        padding-top: 12%;
+    }
     .status_date{
         left: 55px;
     }
 
     .circle{
-        left: 239px;
+        left: 39%;
     }
 
     .status_content {
@@ -215,7 +228,7 @@ label {
     }
 
     .app_status{
-        margin: 10px 0px 0px 135px;
+        margin-left: 27%;
         font-size: 20px;
         font-weight: 600;
     }
@@ -225,7 +238,7 @@ label {
     }
     .status{
         font-size: 24px;
-        margin: 50px 0 30px 35% !important;
+        margin: 25px 0 30px 39% !important;
     }
 }
 
