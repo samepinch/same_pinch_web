@@ -107,12 +107,6 @@ a:hover {
     /*padding: 10px 0;*/
 }
 
-.mainCont .hsContent{
-    bottom:0px !important;
-    top:20% !important;
-    vertical-align: baseline !important;
-}
-
 
 .hsContent h1, h1 {
     font-weight:700;
@@ -220,24 +214,6 @@ header .logo img{
         margin-right:25px;
     }
 
-}
-
-#kol_embed_container_54190{
-    width:350px !important;
-    margin-bottom: 25px !important;
-}
-
-.kol-form-header h2{
-    margin-top: 10px !important;
-    margin-bottom: 10px !important;
-}
-
-#kol-powered-by-wrapper{
-    display: none;
-}
-
-#kol_embed_container_54190 #kol-form-submit-button{
-    margin-bottom: 25px !important;
 }
 
 
