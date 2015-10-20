@@ -77,7 +77,7 @@ header .logo img{
 
 .body-content{
     padding: 60px 32px 20px 32px;
-    color: #ffffff;
+    color: #000 !important;
     line-height: 1.4;
 }
 
@@ -142,7 +142,7 @@ label {
 
 .total_body{
     padding-top: 70px;
-    color: #ffffff;
+    color: #000000;
     line-height: 1.4;
 }
 
@@ -192,6 +192,7 @@ label {
 .status_heading{
     background-color: #333333;
     padding: 3px 0px 3px 5px;
+    color: #fff;
 }
 
 .status_text{
