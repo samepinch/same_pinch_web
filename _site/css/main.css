@@ -3,67 +3,47 @@ body > div:nth-child(2){
     background-color: #FFFFFF;
     -webkit-transform: translate(0px, 0%);
     transform: translate(0px, 0%);
-    color:#000;
-    -moz-box-shadow:    inset 0 0 15px #000000;
-   -webkit-box-shadow: inset 0 0 15px #000000;
-   box-shadow:         inset 0 0 15px #000000;
 }
 
 body > div:nth-child(3){
-    background-color: #FFFFFF;
+    background-color: #FF9800;
     -webkit-transform: translate(0px, 0%);
     transform: translate(0px, 0%);
-    -moz-box-shadow:    inset 0 0 15px #000000;
-   -webkit-box-shadow: inset 0 0 15px #000000;
-   box-shadow:         inset 0 0 15px #000000;
 }
 
 body > div:nth-child(4){
-    background-color: #FFFFFF;
+    background-color: #FFEB3B;
     -webkit-transform: translate(100%, 0px );
     transform: translate(100%, 0);
-    -moz-box-shadow:    inset 0 0 15px #000000;
-   -webkit-box-shadow: inset 0 0 15px #000000;
-   box-shadow:         inset 0 0 15px #000000;
 }
 
 body > div:nth-child(5){
-    background-color: #FFFFFF;
+    background-color: #4CAF50;
     -webkit-transform: translate(100%, 0px);
     transform: translate(100%, 0px);
-    -moz-box-shadow:    inset 0 0 15px #000000;
-   -webkit-box-shadow: inset 0 0 15px #000000;
-   box-shadow:         inset 0 0 15px #000000;
 }
 body > div:nth-child(6){
-    background-color:#FFFFFF;
+    background-color:#2196F3;
     -webkit-transform: translate(100%, 0px);
     transform: translate(100%, 0px);
-    -moz-box-shadow:    inset 0 0 15px #000000;
-   -webkit-box-shadow: inset 0 0 15px #000000;
-   box-shadow:         inset 0 0 15px #000000;
 }
 
 body > div:nth-child(7){
-    background-color:#FFFFFF;
+    background-color:#3F51B5;
     -webkit-transform: translate(100%, 0px);
     transform: translate(100%, 0px);
-    -moz-box-shadow:    inset 0 0 15px #000000;
-   -webkit-box-shadow: inset 0 0 15px #000000;
-   box-shadow:         inset 0 0 15px #000000;
 }
 body > div:nth-child(8){
-    background-color: #FFFFFF;
+    background-color: #c166ff;
     -webkit-transform: translate(0px, 100%);
     transform: translate(0px, 100%);
-    -moz-box-shadow:    inset 0 0 15px #000000;
-   -webkit-box-shadow: inset 0 0 15px #000000;
-   box-shadow:         inset 0 0 15px #000000;
 }
 
 
 
-
+.hsContent .welcome_text{
+    color:#000000 !important;
+}
 
 html, body {
     width:100%;
@@ -124,25 +104,19 @@ a:hover {
     width:100%;
     height: 35%;
     bottom: 30%;
-    /*background-color: #ffffff;*/
+    background-color: rgba(0,0,0,0.7);
     color: white;
     /*padding: 10px 0;*/
-}
-
-.hsContent .welcome_container{
-    color: #000;
 }
 
 
 .hsContent h1, h1 {
     font-weight:700;
     font-size: 40px;
-    color:#000;
 }
 
 .hsContent p {
     font-size: 25px;
-    color:#000;
 }
 
 .hsContent a {
@@ -168,7 +142,7 @@ header{
     left:0;
     height: 60px;
     z-index: 10000;
-    background-color: transparent;
+    background-color: white;
 }
 
 header .logo img{
@@ -238,4 +212,14 @@ header .logo img{
 
 }
 
-
+.arrow {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left:-20px;
+  width: 30px;
+  height: 40px;
+  margin-bottom: 15px;
+  background-image: url("http://bstro.com/wp-content/themes/bstro/images/home/bstro-arrow.gif");
+  background-size: contain;
+}
