@@ -220,6 +220,6 @@ header .logo img{
   width: 30px;
   height: 40px;
   margin-bottom: 15px;
-  background-image: url("http://bstro.com/wp-content/themes/bstro/images/home/bstro-arrow.gif");
+  background-image: url("/img/arrow.gif");
   background-size: contain;
 }
