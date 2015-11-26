@@ -1,40 +1,68 @@
 
 body > div:nth-child(2){
-    background-color: #FFFFFF;
+    /*background-color: #FFFFFF;*/
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     -webkit-transform: translate(0px, 0%);
     transform: translate(0px, 0%);
 }
 
 body > div:nth-child(3){
-    background-color: #FF9800;
+    /*background-color: #FF9800;*/
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     -webkit-transform: translate(0px, 0%);
     transform: translate(0px, 0%);
 }
 
 body > div:nth-child(4){
-    background-color: #FFEB3B;
+    /*background-color: #FFEB3B;*/
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     -webkit-transform: translate(100%, 0px );
     transform: translate(100%, 0);
 }
 
 body > div:nth-child(5){
-    background-color: #4CAF50;
+    /*background-color: #4CAF50;*/
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     -webkit-transform: translate(100%, 0px);
     transform: translate(100%, 0px);
 }
 body > div:nth-child(6){
-    background-color:#2196F3;
+    /*background-color:#2196F3;*/
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     -webkit-transform: translate(100%, 0px);
     transform: translate(100%, 0px);
 }
 
 body > div:nth-child(7){
-    background-color:#3F51B5;
+    /*background-color:#3F51B5;*/
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     -webkit-transform: translate(100%, 0px);
     transform: translate(100%, 0px);
 }
 body > div:nth-child(8){
-    background-color: #c166ff;
+    /*background-color: #c166ff;*/
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     -webkit-transform: translate(0px, 100%);
     transform: translate(0px, 100%);
 }
@@ -216,10 +244,12 @@ header .logo img{
   position: fixed;
   bottom: 0;
   left: 50%;
-  margin-left:-20px;
-  width: 30px;
+  margin-left:-10px;
+  width: 23px;
   height: 40px;
   margin-bottom: 15px;
-  background-image: url("/img/arrow.gif");
+  background-image: url("/img/scroll_down.png");
   background-size: contain;
+    cursor: hand;
 }
+
