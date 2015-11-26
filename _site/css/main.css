@@ -10,59 +10,35 @@ body > div:nth-child(2){
 }
 
 body > div:nth-child(3){
-    /*background-color: #FF9800;*/
-    background-image: url(../img/bg.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: #FF9800;
     -webkit-transform: translate(0px, 0%);
     transform: translate(0px, 0%);
 }
 
 body > div:nth-child(4){
-    /*background-color: #FFEB3B;*/
-    background-image: url(../img/bg.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: #FFEB3B;
     -webkit-transform: translate(100%, 0px );
     transform: translate(100%, 0);
 }
 
 body > div:nth-child(5){
-    /*background-color: #4CAF50;*/
-    background-image: url(../img/bg.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: #4CAF50;
     -webkit-transform: translate(100%, 0px);
     transform: translate(100%, 0px);
 }
 body > div:nth-child(6){
-    /*background-color:#2196F3;*/
-    background-image: url(../img/bg.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    -webkit-transform: translate(100%, 0px);
+    background-color:#2196F3;
+   -webkit-transform: translate(100%, 0px);
     transform: translate(100%, 0px);
 }
 
 body > div:nth-child(7){
-    /*background-color:#3F51B5;*/
-    background-image: url(../img/bg.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color:#3F51B5;
     -webkit-transform: translate(100%, 0px);
     transform: translate(100%, 0px);
 }
 body > div:nth-child(8){
-    /*background-color: #c166ff;*/
-    background-image: url(../img/bg.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: #c166ff;
     -webkit-transform: translate(0px, 100%);
     transform: translate(0px, 100%);
 }
