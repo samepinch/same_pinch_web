@@ -23,7 +23,7 @@
 
 
     <script type="text/javascript" src="/js/jquery.js"></script>
-    <script type="text/javascript" src="/js/google_analytics.js"></script>
+    <script type="text/javascript" src="/js/google_analytics-2.js"></script>
     <script>
         $(document).ready(function(){
             if(getParameterByName("token").length<1){
@@ -51,11 +51,10 @@
         });
 
         reset_password=function(args){
-            alert('ok1');
             $.ajax({
                 type : "POST",
                 dataType : "json",
-                url : "http://localhost:3000/api/webviews",
+                url : "https://posts.samepinch.co/api/webviews.json",
                 data: {command:'reset_password',body: args},
                 success: function(data){
                     alert(data.message);
