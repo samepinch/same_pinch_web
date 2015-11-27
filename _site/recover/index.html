@@ -14,7 +14,7 @@
 
 
 
-    <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/css/style.css" type="text/css">
 
 
@@ -51,10 +51,11 @@
         });
 
         reset_password=function(args){
+            alert('ok1');
             $.ajax({
                 type : "POST",
                 dataType : "json",
-                url : "https://samepinch.herokuapp.com/api/webviews.json",
+                url : "http://localhost:3000/api/webviews",
                 data: {command:'reset_password',body: args},
                 success: function(data){
                     alert(data.message);

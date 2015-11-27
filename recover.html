@@ -18,7 +18,7 @@ title: recover
 
 
 
-    <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" type="text/css">
 
 
@@ -27,7 +27,7 @@ title: recover
 
 
     <script type="text/javascript" src="/js/jquery.js"></script>
-    <script type="text/javascript" src="/js/google_analytics.js"></script>
+    <script type="text/javascript" src="/js/google_analytics-2.js"></script>
     <script>
         $(document).ready(function(){
             if(getParameterByName("token").length<1){
@@ -58,7 +58,7 @@ title: recover
             $.ajax({
                 type : "POST",
                 dataType : "json",
-                url : "https://samepinch.herokuapp.com/api/webviews.json",
+                url : "https://posts.samepinch.co/api/webviews.json",
                 data: {command:'reset_password',body: args},
                 success: function(data){
                     alert(data.message);
