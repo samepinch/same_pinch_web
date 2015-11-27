@@ -112,8 +112,6 @@ a:hover {
     color: white;
     /*padding: 10px 0;*/
 }
-
-
 .hsContent h1, h1 {
     font-weight:700;
     font-size: 40px;
@@ -126,6 +124,12 @@ a:hover {
 .hsContent a {
     color: #b2b2b2;
     text-decoration: underline;
+}
+.hsContent .text_anonymous {
+    margin-top: 50px;
+}
+.hsContent .text_center {
+    margin-top: -4px;
 }
 
 .subTitle{
@@ -214,6 +218,9 @@ header .logo img{
         margin-right:25px;
     }
 
+.hsContent h1, h1 {
+    letter-spacing: -2px;
+}
 }
 
 .arrow {
