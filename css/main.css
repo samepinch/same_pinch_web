@@ -221,6 +221,13 @@ header .logo img{
 .hsContent h1, h1 {
     letter-spacing: -2px;
 }
+/*.hsContent .text_anonymous {
+    margin-top: 90px;
+}
+.hsContent .text_center {
+    vertical-align: baseline;
+}
+*/
 }
 
 .arrow {
