@@ -13,6 +13,7 @@
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css" type="text/css">
     <link rel="stylesheet" href="css/email_widget.css" type="text/css">
+    <link rel="stylesheet" href="css/fancybox.css" type="text/css" media="screen" />
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>SamePinch</title>
     <!-- Facebook Pixel Code -->
@@ -32,72 +33,99 @@
 </head>
 
 <body style="height: 3064.5px;">
-<header> <div class="logo"><img src="img/logo-main@2x.png"></div></header>
+<header>
+    <div class="logo"><img src="img/logo-main@2x.png"></div>
+    <div class="download-logos">
+        <a href="https://itunes.apple.com/app/apple-store/id998823966?pt=55685824&ct=ORGWEB&mt=8" target="_blank">
+            <img src="img/ios_store.png"  alt="iOS App"/>
+        </a>
+        <a href="https://play.google.com/store/apps/details?id=co.samepinch.android.app" target="_blank">
+            <img src="img/play_store.png" alt="Android App"/>
+        </a>
+    </div>
+
+
+</header>
 <div data-0="transform:translate(0,0%);" data-100p="transform:translate(0,0%);" class="mainCont skrollable skrollable-before" >
-    <div class="hsContent">
-        <h1 class="welcome_text">SamePinch is a community of like-minded <br/>
-            people(dots, we say) connected via shared interests.</h1>
 
-            <div id="kol_embed_container_54190"></div>
+    <div class="overlay">
+        <div class="hsContent">
+            <h1 class="welcome_text">SamePinch is a community of like-minded <br/>
+                people(dots, we say) connected via shared interests.</h1>
+            <a href="https://docs.google.com/forms/d/1efi6EbdERTcPsykH2oGY5dvEx7SHpq9T5dFjJHvI7jg/viewform?embedded=trues" data-fancybox-type="iframe" class="fancyboxIframe">take a short survey for your chance to win raffle</a>
+                <!--<div id="kol_embed_container_54190"></div>-->
 
-        <div class="download-logos">
-            <a href="https://itunes.apple.com/app/apple-store/id998823966?pt=55685824&ct=ORGWEB&mt=8" target="_blank">
-                <img src="img/ios_store.png"  alt="iOS App"/>
-            </a>
-            <a href="https://play.google.com/store/apps/details?id=co.samepinch.android.app" target="_blank">
-                <img src="img/play_store.png" alt="Android App"/>
-            </a>
-        </div>
+
 
     </div>
 
     <div onclick="window.scrollTo(0, $('body').height()/5)" class="arrow bounce"></div>
+    </div>
 </div>
 
 
 
 <div  data-100p="transform:translate(0%,100%);" data-200p="transform:translate(0,0%)" id="skrollable-before" class="skrollable skrollable-before" >
+    <div class="overlay">
     <div class="hsContent">
+        <div class="text_center">
         <h1> Ask</h1>
         <p class="black">Have a question? need an opinion?</p>
         <p>SamePinch'ers around the globe are here to help you!</p>
     </div>
+</div></div>
 </div>
 
 <div data-0="transform:translate(-100%,0);" data-300p="transform:translate(-100%,0);" data-400p="transform:translate(0,0%)" class="skrollable skrollable-between" >
+    <div class="overlay">
     <div class="hsContent">
+        <div class="text_center">
         <h1>Assist</h1>
         <p>Been there, done that?</p>
         <p>Assist someone in need.</p>
 
     </div>
+    </div>
+        </div>
 </div>
 
 <div data-0="transform:translate(-100%,0);" data-500p="transform:translate(-100%,0);" data-600p="transform:translate(0,0%)" class="skrollable skrollable-between">
+    <div class="overlay">
     <div class="hsContent">
+        <div class="text_center">
+           
         <h1>Attain</h1>
         <p>Nothing to Ask? Can't Assist? Sit back and relax.</p>
         <p>Learn something new from a vivid collection of posts/comments from fellow SamePinch'ers!</p>
     </div>
+</div></div>
 </div>
 
 <div data-0="transform:translate(-100%,0);" data-700p="transform:translate(-100%,0);" data-800p="transform:translate(0,0%)" class="skrollable skrollable-between" >
+    <div class="overlay">
     <div class="hsContent">
+          <div class="text_center">
         <h1>Tags</h1>
         <p>Tag your interests, after all,</p> <p>  that's how SamePinch'ers connect!</p>
     </div>
 </div>
+        </div>
+</div>
 
 <div data-0="transform:translate(-100%,0);" data-900p="transform:translate(-100%,0);" data-1000p="transform:translate(0,0%)" class="skrollable skrollable-between" >
+    <div class="overlay">
     <div class="hsContent">
+        <div class="text_anonymous">
         <h1>Anonymous</h1>
         <p>Shh! Unleash yourself being Ask'er-Assist'er-Attain'er whilst anonymous!</p>
     </div>
 </div>
-
+        </div>
+</div>
 
 <div data-_box-900p="transform:translate(0,100%);" data-_box-1000p="transform:translate(0,0%);" class="skrollable skrollable-before" >
-    <div class="clearfix"></div>
+    <!--<div class="clearfix"></div>-->
+    <div class="overlay">
     <div class="hsContent">
        
             <h1>Welcome to SamePinch</h1>
@@ -111,6 +139,7 @@
             <span class="subTitle italic">-Mahatma Gandhi</span>
       
     </div>
+        </div>
 </div>
 
 <div  data-_box-1000p="transform:translate(0,100%);" data-_box-1100p="transform:translate(0,80%);" class="skrollable skrollable-before footer" >
@@ -132,8 +161,10 @@
 </div>
 
 
+<script type="text/javascript" src="/js/jquery.js"></script>
 <script type="text/javascript" src="/js/skrollr.min.js"></script>
-<script type="text/javascript" src="/js/google_analytics.js"></script>
+<script type="text/javascript" src="/js/google_analytics-2.js"></script>
+<script type="text/javascript" src="/js/fancybox.pack.js"></script>
 
 <script type="text/javascript">
     skrollr.init({
@@ -143,13 +174,33 @@
             box: '150p'
         }
     });
-    
+
+    $( document ).ready(function() {
+
+        $('.fancyboxIframe')
+                .attr('rel', 'media-gallery')
+                .fancybox({
+                    openEffect : 'none',
+                    closeEffect : 'none',
+                    prevEffect : 'none',
+                    nextEffect : 'none',
+
+                    arrows : false,
+                    closeBtn:true,
+                    margin:[100,0,50,0]
+                });
+    });
+
+
 </script>
 
-<script>window.jQuery || document.write('<scr' + 'ipt src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"><\/sc' + 'ript>')</script>
-<script>window.$kol_jquery = window.jQuery</script>
-<script src="https://kickoffpages-kickofflabs.netdna-ssl.com/widgets/1.2.0/kol_embed.js"></script>
-<script src='https://kickoffpages-kickofflabs.netdna-ssl.com/w/47819/54190.js'></script>
+<!--<script>window.jQuery || document.write('<scr' + 'ipt src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"><\/sc' + 'ript>')</script>-->
+<!--<script>-->
+    <!--window.$kol_jquery = window.jQuery-->
+
+<!--</script>-->
+<!--<script src="https://kickoffpages-kickofflabs.netdna-ssl.com/widgets/1.2.0/kol_embed.js"></script>-->
+<!--<script src='https://kickoffpages-kickofflabs.netdna-ssl.com/w/47819/54190.js'></script>-->
 
 
 
