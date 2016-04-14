@@ -14,7 +14,7 @@ body{
     background-size: cover;
 }
 
-body > div:nth-child(2){
+body > div:nth-child(4){
     background-color: transparent;
 
     -webkit-transform: translate(0px, 0%);
@@ -22,7 +22,7 @@ body > div:nth-child(2){
 }
 
 
-body > div:nth-child(3){
+body > div:nth-child(5){
     background-image: url(../img/bg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -31,21 +31,10 @@ body > div:nth-child(3){
     transform: translate(0px, 0%);
 }
 
-body > div:nth-child(4){
+body > div:nth-child(6){
     background-color: transparent;
     -webkit-transform: translate(100%, 0px );
     transform: translate(100%, 0);
-}
-
-body > div:nth-child(5){
-    background-color: transparent;
-    -webkit-transform: translate(100%, 0px);
-    transform: translate(100%, 0px);
-}
-body > div:nth-child(6){
-    background-color: transparent;
-   -webkit-transform: translate(100%, 0px);
-    transform: translate(100%, 0px);
 }
 
 body > div:nth-child(7){
@@ -55,8 +44,22 @@ body > div:nth-child(7){
 }
 body > div:nth-child(8){
     background-color: transparent;
+   -webkit-transform: translate(100%, 0px);
+    transform: translate(100%, 0px);
+}
+
+body > div:nth-child(9){
+    background-color: transparent;
     -webkit-transform: translate(100%, 0px);
     transform: translate(100%, 0px);
+}
+body > div:nth-child(10){
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-transform: translate(0px, 100%);
+    transform: translate(0px, 100%);
 }
 
 .overlay{
@@ -65,10 +68,12 @@ width: 100%;
 height: 100%;
 }
 
-body > div:nth-child(2) .overlay, body > div:nth-child(3) .overlay{
+body > div:nth-child(4) .overlay, body > div:nth-child(5) .overlay{
     background-color: rgba(228, 214, 200,0.4);
 }
-
+body > div:nth-child(10) .overlay{
+    background-color: rgba(228, 214, 200,0.6);
+}
 .hsContent .welcome_text{
     color: #795533;}
 /*#0C6CEA*/
@@ -93,13 +98,13 @@ body > div {
 
 /*p {margin:1em 0;}*/
 
-body > div:nth-child(2) .hsContent, body > div:nth-child(8) .hsContent{
+body > div:nth-child(4) .hsContent, body > div:nth-child(10) .hsContent{
     /*height: 100%;*/
-    /*background-color: transparent;*/
+    background-color: transparent;
 }
 
-body > div:nth-child(8) .hsContent{
-    /*bottom:40%;*/
+body > div:nth-child(10) .hsContent{
+    bottom:40%;
 }
 
 h2 {
@@ -177,11 +182,8 @@ header{
     background-color: transparent;
 }
 
-
-
 .footer {
     background-color: white;
-
 }
 
 .footer div{
@@ -261,13 +263,6 @@ header{
 .hsContent h1, h1 {
     letter-spacing: -2px;
 }
-/*.hsContent .text_anonymous {
-    margin-top: 90px;
-}
-.hsContent .text_center {
-    vertical-align: baseline;
-}
-*/
 
     .download-logos{
         display:none;
