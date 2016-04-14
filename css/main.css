@@ -54,12 +54,9 @@ body > div:nth-child(7){
     transform: translate(100%, 0px);
 }
 body > div:nth-child(8){
-    background-image: url(../img/bg.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    -webkit-transform: translate(0px, 100%);
-    transform: translate(0px, 100%);
+    background-color: transparent;
+    -webkit-transform: translate(100%, 0px);
+    transform: translate(100%, 0px);
 }
 
 .overlay{
@@ -71,9 +68,7 @@ height: 100%;
 body > div:nth-child(2) .overlay, body > div:nth-child(3) .overlay{
     background-color: rgba(228, 214, 200,0.4);
 }
-body > div:nth-child(8) .overlay{
-    background-color: rgba(228, 214, 200,0.6);
-}
+
 .hsContent .welcome_text{
     color: #795533;}
 /*#0C6CEA*/
@@ -100,11 +95,11 @@ body > div {
 
 body > div:nth-child(2) .hsContent, body > div:nth-child(8) .hsContent{
     /*height: 100%;*/
-    background-color: transparent;
+    /*background-color: transparent;*/
 }
 
 body > div:nth-child(8) .hsContent{
-    bottom:40%;
+    /*bottom:40%;*/
 }
 
 h2 {
